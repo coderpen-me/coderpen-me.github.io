@@ -6,7 +6,7 @@ endif;
 
 if (filter_var($_REQUEST['email'], FILTER_VALIDATE_EMAIL)):
 
- $to = 'coderpen@gmail.com';
+ $to = 'adarsh.myinbox@gmail.com';
 
       // prepare header
 $header = 'From: '. $_REQUEST['name'] . ' <'. $_REQUEST['email'] .'>'. "\r\n";
